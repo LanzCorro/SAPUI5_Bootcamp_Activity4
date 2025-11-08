@@ -48,7 +48,9 @@
                     </f:content>
                 </f:SimpleForm>
 
-                <Table id="idTableSCart" inset="false">
+                <core:Fragment fragmentName="com.training.exer4corro.fragment.ShoppingCart" type="XML" />
+
+                <!-- <Table id="idTableSCart" inset="false">
                     <headerToolbar>
                         <OverflowToolbar id="idOFT">
                             <content>
@@ -85,7 +87,8 @@
                             </cells>
                         </ColumnListItem>
                     </items>
-                </Table>
+                </Table> -->
+            
 
             </VBox>
 
